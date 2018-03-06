@@ -1,14 +1,18 @@
 import java.util.Date;
 
-public class request {
+public class Request {
 
-	
 	public String name;
 	public String lobby;
 	public Date startReserve;
 	public Date endReserve;
 	public String days;
 	public String hours;
+	
+	//constructores por defecto y con todo los atributos
+	
+	
+	
 	public String getName() {
 		return name;
 	}
