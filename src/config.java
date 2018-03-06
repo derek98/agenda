@@ -1,11 +1,14 @@
 
-public class config {
+//utilizar mayusculas para crear las clases, es una buena practica
+public class Config {
 	
 public int year;
 public int month;
-
 public String inputlanguage;
 public String outputlanguage;
+	
+//constructor por defecto y constructor con todos los atributos	
+	
 public int getYear() {
 	return year;
 }
