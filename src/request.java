@@ -9,8 +9,10 @@ public class Request {
 	public String days;
 	public String hours;
 	
-	//constructores por defecto y con todo los atributos
+	//constructores por defecto
+	public Request() {}
 	
+	//constructor con todos los atributos
 	
 	
 	public String getName() {
